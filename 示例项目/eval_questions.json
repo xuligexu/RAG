@@ -1,0 +1,10 @@
+[
+  {"id":"q1","question":"退款申请需要满足哪些条件","relevant_sources":["02_refund.md"],"reference_answer":"购买后7个自然日内，且学习课时不超过10%，两项同时满足。"},
+  {"id":"q2","question":"退款审核通过后多久到账","relevant_sources":["02_refund.md"],"reference_answer":"通常3至5个工作日原路退回。"},
+  {"id":"q3","question":"忘记密码如何重置，链接有效多久","relevant_sources":["01_account.md"],"reference_answer":"登录页点击忘记密码，经注册邮箱取得链接，有效30分钟。"},
+  {"id":"q4","question":"专业版每个月多少钱","relevant_sources":["03_plans.md"],"reference_answer":"79元/月。"},
+  {"id":"q5","question":"E104 错误如何处理","relevant_sources":["05_errors.md"],"reference_answer":"会话过期，退出并重新登录；持续出现则提交工单。"},
+  {"id":"q6","question":"人工客服的工作时间是什么","relevant_sources":["04_support.md"],"reference_answer":"工作日北京时间09:00至18:00。"},
+  {"id":"q7","question":"专业版能否离线下载，工单首次响应需要多久","relevant_sources":["03_plans.md","04_support.md"],"reference_answer":"官方手机应用支持离线下载，工单首次响应1个工作日内。"},
+  {"id":"q8","question":"年度套餐多少钱","relevant_sources":[],"reference_answer":"根据当前资料无法确定，资料只列出月付价格。"}
+]
