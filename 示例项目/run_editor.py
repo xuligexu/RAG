@@ -35,12 +35,15 @@ def run():
     if TASK == "bm25_demo":
         index = rag.build_index(DATA_PATH, INDEX_PATH, mode="bm25",
                                 size=CHUNK_SIZE, overlap=OVERLAP,
-                                embedding_model=EMBEDDING_MODEL, base_url=BASE_URL)
+                                embedding_model=EMBEDDING_MODEL, 
+                                base_url=BASE_URL
+                            )
         show("建库完成", {
-            "documents": index["document_count"],
-            "chunks": len(index["chunks"]),
-            "index": str(INDEX_PATH),
-        })
+                    "documents": index["document_count"],
+                    "chunks": len(index["chunks"]),
+                    "index": str(INDEX_PATH),
+                }
+            )
         retriever = rag.Retriever(index, BASE_URL)
         hits = retriever.search(QUESTION, mode="bm25", top_k=TOP_K,
                                 candidate_k=CANDIDATE_K)
